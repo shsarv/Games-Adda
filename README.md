@@ -2,6 +2,8 @@
 This repo Contain some small Fun games using Front end technologies (HTML, CSS, JavaScript, and Bootstrap ) performed while learning frontend technologies. 
 [play here](https://shsarv.github.io/Games-Adda/)
 
+<img src="https://github.com/shsarv/Games-Adda/blob/master/re/Screenshot%20(89).png">
+
 
 ### list of games
 
@@ -12,6 +14,7 @@ This repo Contain some small Fun games using Front end technologies (HTML, CSS, 
 * Text Adventure
 * Dice Challange
 * Drum Kit
+
 
 
 
