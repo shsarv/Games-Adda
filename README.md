@@ -1,4 +1,4 @@
-# web-based-Mini-projects-and-games
+# Games Adda
 This repo Contain some small Fun games using Front end technologies (HTML, CSS, JavaScript, and Bootstrap ) performed while learning frontend technologies. 
 
 
@@ -6,6 +6,7 @@ This repo Contain some small Fun games using Front end technologies (HTML, CSS, 
 
 <img src="https://github.com/shsarv/Games-Adda/blob/master/re/Screenshot%20(89).png">
 
+<hr> 
 
 ### list of games
 
