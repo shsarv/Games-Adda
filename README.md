@@ -32,4 +32,4 @@ This repo Contain some small Fun games using Front end technologies (HTML, CSS, 
 
 ### License
 
-**Apache-2.0 License **
+**Apache-2.0 License**
