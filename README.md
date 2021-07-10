@@ -6,7 +6,7 @@ This repo Contain some small Fun games using Front end technologies (HTML, CSS, 
 
 [play here](https://shsarv.github.io/Games-Adda/)
 
-<img src="https://github.com/shsarv/Games-Adda/blob/master/re/Screenshot%20(89).png">
+<img src="re/demo.png" />
 
 <hr> 
 
