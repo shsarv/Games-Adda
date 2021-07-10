@@ -1,0 +1,22 @@
+body{
+
+    background: teal;
+}
+div#stats{
+    margin: 0px;
+    position: relative;
+    float: right;
+}
+
+div#game-container{
+    background-color: darkslategrey;
+ 
+}
+
+canvas#game{
+    position: relative;
+    padding: 8px;
+    background: #786e6e;
+    border: inset;
+    border-color: #fff;
+}

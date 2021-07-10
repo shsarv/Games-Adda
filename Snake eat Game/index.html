@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="p5.min.js"></script>
+    <script src="addons/p5.dom.min.js"></script>
+    <script src="addons/p5.speech.js"></script>
+    <!-- <style src="css/style.css"></style> -->
+    
+    <script src="sketch.js"></script>
+   <script src="snake.js"></script>
+  
+ 
+   
+   
+
+  </head>
+  
+  <body>
+    <div id="game-container" draggable="true"></div>
+      <script>
+        (function () { var script = document.createElement('script'); script.onload = function () { var stats = new Stats(); stats.domElement.style.cssText = 'position:absolute;left:0;top:0;z-index:10000'; document.body.appendChild(stats.domElement); requestAnimationFrame(function loop() { stats.update(); requestAnimationFrame(loop) }); }; script.src = 'stats.js'; document.head.appendChild(script); })()
+      </script>
+  </body>
+  
+</html>

@@ -1,0 +1,10 @@
+/* line 1 */
+
+body {
+    font-family: Verdana;
+    font-size: 10pt;
+}
+
+#gameCanvas {
+    background-color: rgb(64, 158, 221);
+}

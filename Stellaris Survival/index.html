@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stellaris Survival</title>
+
+    <!-- <script src="p5.min.js"></script> -->
+    <!-- <script src="addons/p5.dom.min.js"></script> -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js" integrity="sha256-GdlroanCXFgv0ILaTQ1v0qnNxc+FQNjjXADWxmtr7PM=" crossorigin="anonymous"></script>
+    <!-- <script src="addons/p5.sound.min.js"></script> -->
+    <script src="ship.js"></script>
+    <script src="sketch.js"></script>
+    <script src="laser.js"></script>
+    <script src="asteroids.js"></script>
+    <script>
+        (function() {
+            var script = document.createElement('script');
+            script.onload = function() {
+                var stats = new Stats();
+                stats.domElement.style.cssText = 'position:fixed;left:0;top:0;z-index:10000';
+                document.body.appendChild(stats.domElement);
+                requestAnimationFrame(function loop() {
+                    stats.update();
+                    requestAnimationFrame(loop)
+                });
+            };
+            script.src = 'stats.js';
+            document.head.appendChild(script);
+        })()
+    </script>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background: black;
+        }
+        
+        canvas {
+            border: 1px white solid;
+            /* border-color: white; */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- autofilled by script -->
+</body>
+
+</html>
