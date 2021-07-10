@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+<h1 align="center"> PING-PONG</h1>
+  <div id="game_window" align="center">
+    <script src="p5.min.js"></script>
+    <script src="addons/p5.dom.min.js"></script>
+    <script src="addons/p5.sound.min.js"></script>
+
+    <script src="sketch.js"></script>
+    <script src="ball.js"></script>
+    <script src="bar.js"></script>
+
+
+
+
+    <script>
+      (function () { var script = document.createElement('script'); script.onload = function () { var stats = new Stats(); stats.domElement.style.cssText = 'position:fixed;left:0;top:0;z-index:10000'; document.body.appendChild(stats.domElement); requestAnimationFrame(function loop() { stats.update(); requestAnimationFrame(loop) }); }; script.src = 'stats.js'; document.head.appendChild(script); })()
+    </script>
+
+  </div>
+
+
+</body>
+
+</html>
